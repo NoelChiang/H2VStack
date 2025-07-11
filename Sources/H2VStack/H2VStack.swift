@@ -6,6 +6,7 @@ import SwiftUI
 
 @available(iOS 16.0, *)
 public struct H2VStack: Layout {
+    public init() {}
     public func sizeThatFits(proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) -> CGSize {
         // get sizes of each subview
         let sizes = sizes(subviews)
